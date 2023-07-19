@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style type="text/css">
+        @supports -ko-blockdefs {
+
+            text {
+                widget: text
+            }
+
+            table {
+                widget: ;
+                options
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+    <div id="preface">
+        <!--<div id="logo">
+            <a href="https://timeframe.website/">
+                <img src="mosaico\res\img\timeframe-pagelogo-updated.png"
+                     alt="Timeframe Logo" />
+            </a>
+        </div>-->
+    </div>
+    <div data-ko-container="main">
+        <div data-ko-block="HeaderAndTextBlock">
+            <h1 data-ko-editable="headerText">this is header</h1>
+            <div data-ko-editable="bodyText">
+                this is text
+            </div>
+        </div>
+        <div data-ko-block="HeaderBlock">
+            <div data-ko-editable="standaloneHeaderText">
+                Standalone header
+            </div>
+        </div>
+        <!--<div data-ko-editable="InvoiceTableBlock">
+            <table id="invoice-section" style="border-collapse: collapse">
+                <tr class="heading">
+                    <td>Bill#</td>
+                    <td>Date</td>
+                    <td>Fees</td>
+                    <td class="last">Disbursements</td>
+                    <td class="last">Total</td>
+                </tr>
+                <tr id="ROW_DATA" class="item">
+                    <td>{DET_BILL_NUM}</td>
+                    <td>{DET_BILL_DATE}</td>
+                    <td>{DET_FEES_AMT}</td>
+                    <td class="last">{DET_DISB_AMT}</td>
+                    <td class="last">{DET_BILL_AMT}</td>
+                </tr>
+                <tr style="font-weight: bold" class="item last">
+                    <td colspan="1" align="left">TOTAL</td>
+                    <td align="right" colspan="2"></td>
+                    <td align="right" colspan="2">{BILL_TOT}</td>
+                </tr>
+            </table>
+        </div>-->
+    </div>
+    <div id="trailer">
+        <h1>This is the end of the basic Timeframe template</h1>
+    </div>
+</body>
+</html>
